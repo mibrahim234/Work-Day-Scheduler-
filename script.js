@@ -20,6 +20,19 @@ hoursArray.forEach(function(hour) {
     $('container').append(rowDiv);
 })
 
+//sets to local storage
+//val() method returns or sets the value attribute of the selected elements
+
+function saveDescription () {
+    var time = $(this).parent().attr('id');
+    var desText = $(this).siblings('.description').val();
+    localStorage.setItem(time, desText);
+}
+
+//gets from local storage
+hoursArray.forEach(function(hour) {
+    $(`#${hour} .description`).val(localStorage.getItem(hour));
+})
 //setter
 moment().seconds(30);
 
