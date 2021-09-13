@@ -22,7 +22,7 @@ WHEN I refresh the page
 --THEN the saved events persist
 
 
-![Work Day Scheduler Screenshot](assets/images/wdd.PNG)
+![Work Day Scheduler Screenshot](assets/images/WDS.PNG)
 
 ## Built With
 * HTML
