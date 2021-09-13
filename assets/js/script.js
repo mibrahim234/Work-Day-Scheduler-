@@ -20,7 +20,7 @@ hoursArray.forEach(function(hour) {
     rowDiv.append(timeColomn);
     rowDiv.append(textColomn);
     rowDiv.append(btnCol);
-    $('container').append(rowDiv);
+    $('.container').append(rowDiv);
 })
 console.log(hoursArray);
 
