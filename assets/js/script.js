@@ -1,5 +1,6 @@
 var currentHour = moment().hours();
 var hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+console.log(hoursArray);
 
 $('#currentDay').text(moment().format('dddd, MMMM Do YYYY'));
 
@@ -16,9 +17,12 @@ hoursArray.forEach(function(hour) {
     var btnCol = $('<button>');
     btnCol.addClass('col-1 btn saveBtn');
     btnCol.text('save');
-    rowDiv.append(timeColomn, textColomn, btnCol);
+    rowDiv.append(timeColomn);
+    rowDiv.append(textColomn);
+    rowDiv.append(btnCol);
     $('container').append(rowDiv);
 })
+console.log(hoursArray);
 
 //sets to local storage
 //val() method returns or sets the value attribute of the selected elements

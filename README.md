@@ -29,6 +29,7 @@ WHEN I refresh the page
 * CSS
 * JavaScript
 * jQuery
+* BootStrap
 
 ## Website
 Link to the GIT repository: <br>
