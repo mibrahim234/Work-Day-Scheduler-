@@ -15,11 +15,11 @@ hoursArray.forEach(function(hour) {
     var textColomn = $('<textarea>');
     textColomn.addClass('col-10 description');
     var btnCol = $('<button>');
-    btnCol.addClass('col-1 btn saveBtn');
-    btnCol.text('save');
+    btnColomn.addClass('col-1 btn saveBtn');
+    btnColomn.text('save');
     rowDiv.append(timeColomn);
     rowDiv.append(textColomn);
-    rowDiv.append(btnCol);
+    rowDiv.append(btnColomn);
     $('.container').append(rowDiv);
 })
 console.log(hoursArray);
