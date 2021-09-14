@@ -5,7 +5,7 @@ This is a simple calendar application that allows a user to save events for each
 This website is designed to help users organize their schedule. 
 
 ## How It Works 
-The user plans their day by simply typing in the hour block and clicking the save button. The information gets saved on the page and is set in local storage. CSS classes and JS help keep the current hour red, the past hours grey, and the future hours green. The current date is being displayed at the top of the page. The clear button is at the top to clear the planner. 
+The user plans their day by simply typing in the hour block and clicking the save button. The information gets saved on the page and is set in local storage. If the save button is not clicked, nothing will be saved. CSS classes with BootStrap and Jquery help keep the the past hours grey, current hours red and the future hours green. The current date is being displayed at the top of the page. The clear button is at the top to clear the planner. 
 
 ![Work Day Scheduler Screenshot](assets/images/WDS.PNG)
 
