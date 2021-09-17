@@ -14,7 +14,7 @@ hoursArray.forEach(function(hour) {
     timeColomn.text(hour + ':00');
     var textColomn = $('<textarea>');
     textColomn.addClass('col-10 description');
-    var btnCol = $('<button>');
+    var btnColomn = $('<button>');
     btnColomn.addClass('col-1 btn saveBtn');
     btnColomn.text('save');
     rowDiv.append(timeColomn);
